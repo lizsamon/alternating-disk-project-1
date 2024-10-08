@@ -9,6 +9,7 @@
     - Open your computer's terminal
 
     - Navigate to the directory where you saved the lawnmower.py file
+    
         ex. cd /path/to/lawnmower.py
 
 3. Run lawnmower.py 
@@ -16,6 +17,7 @@
     - You can run lawnmower.py in your computer's terminal by running the command:
 
          mac command: python3 lawnmower.py
+
          windows/linux: python lawnmower.py
 
 4. Enter input

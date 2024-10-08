@@ -9,6 +9,7 @@
     - Open your computer's terminal
 
     - Navigate to the directory where you saved the lefttoright.py file
+
         ex. cd /path/to/lefttoright.py
 
 3. Run lefttoright.py 
@@ -16,6 +17,7 @@
     - You can run lefttoright.py in your computer's terminal by running the command:
 
          mac command: python3 lefttoright.py
+
          windows/linux: python lefttoright.py
 
 4. Enter input
