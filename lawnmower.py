@@ -1,5 +1,3 @@
-disk_list = ['dark', 'light', 'dark', 'light', 'dark', 'light','dark', 'light'] # initializing unsorted disk list as an array of strings
-
 def lawnmower(disk_list): # defining the lawnmower function and passing in the disk_list input
 
     n = len(disk_list) // 2 # setting n as half the length of the disk_list since there are 2n disks in total
@@ -20,6 +18,9 @@ def lawnmower(disk_list): # defining the lawnmower function and passing in the d
                         
 
     return disk_list # returns the sorted disk_list
+
+userInput = input("Enter a disk list (ex. 'dark light dark'):  ") # taking in user input
+disk_list = userInput.split() # splits string into an array of strings
 
 diskListsorted = lawnmower(disk_list) # assigning lawnmower function to a variable
 

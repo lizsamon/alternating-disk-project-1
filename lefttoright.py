@@ -1,4 +1,3 @@
-disk_list = ['dark', 'light', 'dark', 'light', 'dark', 'light', 'dark', 'light'] # initializing unsorted disk list as an array of strings
 
 def leftToright(disk_list): # defining the left-to-right function and passing in the disk_list input
 
@@ -13,6 +12,9 @@ def leftToright(disk_list): # defining the left-to-right function and passing in
                 disk_list[j], disk_list[j+1] = disk_list[j+1], disk_list[j] # when conditions met, swaps the disk with its adjacent right disk
 
     return disk_list # returns the sorted disk_list
+
+userInput = input("Enter a disk list (ex. 'dark light dark'):  ") # taking in user input
+disk_list = userInput.split() # splits string into an array of strings
 
 diskListsorted = leftToright(disk_list) # assigning leftToright function to a variable
 
